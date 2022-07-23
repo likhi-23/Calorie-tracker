@@ -26,6 +26,7 @@ SECRET_KEY = '001(0+1hj+xva48n@$7&%m!hby2nrz8%m()4v&b$!oey*+^^hw'
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
+CSRF_TRUSTED_ORIGINS =['https://calorieapp.azurewebsites.net']
 
 
 # Application definition
